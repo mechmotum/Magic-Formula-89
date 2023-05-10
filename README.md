@@ -8,6 +8,7 @@ This script generates the parameters for Pacejka 89 model, both for lateral forc
 G. Dell'Orto, J. K. Moore, G. Mastinu, R. Happee. (2023). Bicycle Tyre Data - Lateral Characteristics (Version 1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7866646)
 ### Output
 .mat struct with Optimal Parameters for Pacejka 89 model. You can save the Optimal Parameters uncommenting the related lines (you can find all the comments in the script)
+The Optimal Parameters have been already evaluated and ready-for-use. They are available here: https://doi.org/10.5281/zenodo.7920414
 
 The script calls other functions:
 1. Pac89_Fy (called through fminunc, it finds parameters for Fy)
