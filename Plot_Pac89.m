@@ -1,11 +1,13 @@
-% % % This script is intended for plotting only. 
-% generates the parameters for Pacejka 89 model, both for
-% lateral force Fy and self-aligning torque Mz. We have 14 parameters for
-% lateral force Fy, 18 parameters for self-aligning torque Mz.
+% % % This script is intended for plotting only. This script is intended
+% for plotting only. It plots the Magic Formula fitting curves for the
+% selected tyre.
 
 % Input: 
 % 1.    .mat struct of Optimal Parameters MF 89, available here:
-%       
+%       Gabriele Dell'Orto, Jason Keith Moore, Gianpiero Mastinu, &
+%       Riendere Happee. (2023). Magic Formula Parameters - Bicycle Tyres
+%       (Version 1) [Data set]. Zenodo.
+%       https://doi.org/10.5281/zenodo.7920415
 % 2.    .mat Experimental bicycle tyre data, available here:
 %       G. Dell'Orto, J. K. Moore, G. Mastinu, R. Happee. (2023).
 %       Bicycle Tyre Data - Lateral Characteristics (Version 1) [Data set].
