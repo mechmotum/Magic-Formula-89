@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Magic-Formula-89-Scripts
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Gabriele
+    family-names: Dell'Orto
+    name-particle: Gabriele
+    email: gabriele.dellorto@polimi.it
+    affiliation: Politecnico di Milano & Technical University of Delft
+    orcid: 'https://orcid.org/0000-0001-6186-6869'
+repository-code: 'https://github.com/mechmotum/Magic-Formula-89'
+url: 'https://github.com/mechmotum'
+abstract: >-
+  Magic Formula model for lateral force and self-aligning
+  torque.
+license: CC0-1.0
+version: '1'
+date-released: '2023-05-10'
