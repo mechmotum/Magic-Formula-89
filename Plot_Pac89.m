@@ -57,14 +57,14 @@ for ii=1:length(Fzvect)
         Fy_pac=Modello_Pac89_Fy(OptParameterMF_Fy,Fzvect(ii),gammavect(jj),alfa_Fy); % generate fitting curves from Optimal Parameters 
         plot(alfa_Fy,Fy_pac)
         grid on
-        testo_leg(end+1)={['Fz=',num2str(Fzvect(ii)),' kN, \gamma=',num2str(gammavect(jj)),'°']};
+        testo_leg(end+1)={['F_z=',num2str(Fzvect(ii).*1000),' N, \gamma=',num2str(gammavect(jj)),'°']};
         xlabel '\alpha [deg]'
         ylabel 'F_y [N]'
         legend(testo_leg, 'Location','best')
     end
 end
 hold on 
-title('MF89 - Fitting F_y vs \alpha')
+title('MF89 Fitting F_y')
 
 % Plot experimental data in the same figure with MF Pacejka fitting curves
 plot(datafull.alphaFy, datafull.Fy,'.')
@@ -85,7 +85,7 @@ for ii=1:length(Fzvect)
         plot(alfa_Mz,Mz_pac,'-x')
         hold on
         grid on
-        testo_leg(end+1)={['M_z=',num2str(Fzvect(ii)),' kN, \gamma=',num2str(gammavect(jj)),'°']};
+        testo_leg(end+1)={['M_z=',num2str(Fzvect(ii).*1000),' N, \gamma=',num2str(gammavect(jj)),'°']};
         xlabel '\alpha [deg]'
         ylabel 'M_z [Nm]'
         legend(testo_leg)
@@ -93,7 +93,7 @@ for ii=1:length(Fzvect)
 end
 
 hold on 
-title('MF89 - Fitting M_z vs \alpha')
+title('MF89 Fitting M_z')
 
 % These lines are useful to cut the results from experimental data. You can
 % change the limits, or erase them commenting the following lines 
